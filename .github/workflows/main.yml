@@ -18,4 +18,7 @@ jobs:
     steps: 
         - name: Send Private Message on Whatsapp
           uses: ishween/whatsapp-push-notify-action@1.2
-
+          env:
+            account_sid: ${{ secrets.account_sid }}
+            auth_token: ${{ secrets.auth_token }}
+            to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
