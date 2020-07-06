@@ -17,5 +17,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
         - name: Send Private Message on Whatsapp
-          uses: ishween/whatsapp-push-notify-action@1.0
+          uses: ishween/whatsapp-push-notify-action@1.2
 
